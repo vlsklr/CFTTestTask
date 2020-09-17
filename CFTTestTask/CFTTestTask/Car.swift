@@ -13,7 +13,7 @@ import Foundation
     var yearOfManufactoring: Int?
     var modelName: String?
     var bodyType: String?
-    
+
     init() {
         manufacturerName = "Mitsubishi"
         yearOfManufactoring = 2008
@@ -30,7 +30,19 @@ import Foundation
         self.manufacturerName = manufacturerName
         self.yearOfManufactoring = yearOfManufactoring
         modelName = "Unknown"
-        bodyType = "Unknown"        
+        bodyType = "Unknown"
     }
-    
+    init(manufacturerName: String, yearOfManufactoring: Int, modelName: String ){
+      self.manufacturerName = manufacturerName
+      self.yearOfManufactoring = yearOfManufactoring
+      self.modelName = modelName
+      bodyType = "Unknown"
+    }
+    init(manufacturerName: String, yearOfManufactoring: Int, modelName: String, bodyType: String ){
+      self.manufacturerName = manufacturerName
+      self.yearOfManufactoring = yearOfManufactoring
+      self.modelName = modelName
+      self.bodyType = bodyType
+    }
+
 }
