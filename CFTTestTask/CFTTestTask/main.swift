@@ -7,17 +7,26 @@
 //
 
 import Foundation
-var menuPosition = "0"
+var menuPosition: String? = "0"
+var carList = [Car]()
 
 repeat {
   print("Select menu item:")
-  print("1. Show cars list. \n
+  print("1.Show cars list. \n
   2.Show info about car from list.\n
   3.Add new car.\n
   4.Delete car from list.\n
   5. Change info about car from list\n
   0. Exit")
   menuPosition = readLine()
+  switch menuPosition {
+  case "1":
+    print("1")
+    print("2")
+  default:
+    print("default")
+
+  }
 } while (menuPosition != "0")
 
 let car = Car()

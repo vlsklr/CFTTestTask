@@ -9,10 +9,10 @@
 import Foundation
 
  class Car {
-    var manufacturerName: String?
-    var yearOfManufactoring: Int?
-    var modelName: String?
-    var bodyType: String?
+   var manufacturerName: String?
+   var yearOfManufactoring: Int?
+   var modelName: String?
+   var bodyType: String?
 
     init() {
         manufacturerName = "Mitsubishi"
@@ -46,3 +46,32 @@ import Foundation
     }
 
 }
+
+
+
+
+/* код демонстрирует обработку исключение
+import Foundation
+
+enum VendingMachineError: Error {
+    case invalidSelection
+    case insufficientFunds(coinsNeeded: Int)
+    case outOfStock
+}
+
+class Temp {
+  func vend(name: String) throws {
+     throw VendingMachineError.invalidSelection
+  }
+}
+//main
+
+var temp: Temp
+//temp.vend(name: "123")
+do {
+  try temp = Temp()
+    //try temp.vend(name: "123")
+} catch VendingMachineError.invalidSelection {
+    print("Ошибка выбора.")
+}
+*/
