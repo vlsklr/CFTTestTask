@@ -9,10 +9,10 @@
 import Foundation
 
  class Car {
-   var manufacturerName: String?
-   var yearOfManufactoring: Int?
-   var modelName: String?
-   var bodyType: String?
+   var manufacturerName: String
+   var yearOfManufactoring: Int
+   var modelName: String
+   var bodyType: String
 
     init() {
         manufacturerName = "Mitsubishi"
