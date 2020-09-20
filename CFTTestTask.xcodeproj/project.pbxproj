@@ -27,7 +27,6 @@
 		F5314B19251257970020C0F2 /* CFTTestTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CFTTestTask; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5314B1C251257970020C0F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F5314B232512582E0020C0F2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		F5329F712517531800ADCE1A /* carBase.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = carBase.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +45,6 @@
 			children = (
 				F5314B1B251257970020C0F2 /* CFTTestTask */,
 				F5314B1A251257970020C0F2 /* Products */,
-				F5329F712517531800ADCE1A /* carBase.txt */,
 			);
 			sourceTree = "<group>";
 		};
