@@ -1,0 +1,4 @@
+Lada,2109,1989,Hatchback
+Toyota,Camry,1991,Sedan
+Mitsubishi,Galant,2009,Sedan
+Toyota,Camry Gracia,1999,Coupe
